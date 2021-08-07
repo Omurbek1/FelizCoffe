@@ -1,0 +1,184 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+ box-sizing: border-box;
+}
+@font-face {
+  font-family: 'SignPainter';
+  src: url('./font/sign.otf');
+  src: local('☺️'), url('./font/sign.otf') format('woff'),
+    url('./font/sign.otf') format('truetype'),
+    url('./font/sign.otf') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+
+.mainDiv {
+  background: url('./images/bg.png') center/ cover no-repeat;
+}
+.pName {
+  font-family: SignPainter;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 26.0038px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.inSection p {
+  font-family: SignPainter;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 19.5028px;
+  line-height: 0.1px;
+}
+.header_menu {
+
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0%;
+}
+.sectionName {
+  width: 45%;
+  height: 45%;
+  margin-top: 8%;
+  margin-left: 48%;
+}
+.logoItem {
+  height: 30%;
+  width: 18%;
+  margin-top: 2%;
+  margin-left: -10%;
+}
+.secs {
+  display: flex;
+  margin-top: 2%;
+}
+.menu {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 7%;
+}
+.firstMenu {
+  background: url(../Menu/images/bg.png) center/ cover no-repeat;
+  width: 100%;
+}
+.secondMenu {
+  background: url(../Menu/images/Honey.png) center/ cover no-repeat;
+  width: 100%;
+  padding-top: 2%;
+  padding-bottom: 15%;
+}
+.secondHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+}
+.lines {
+  border-top: 1px solid #17453b;
+  border-bottom: 1px solid #17453b;
+  margin-top: 2.8%;
+  padding: 5px 0;
+}
+.menuText {
+  color: #17453b;
+  font-family: SignPainter;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 34.6717px;
+  line-height: 34px;
+  border-top: 6px solid #17453b;
+  border-bottom: 6px solid #17453b;
+  width: 150px;
+  text-align: center;
+  margin: 0;
+}
+.inSection {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5%;
+  padding-top: -1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.cardLineOne {
+  display: flex;
+  justify-content: space-around;
+}
+.cardLineTwo {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2%;
+}
+.cards {
+  margin-top: 15%;
+}
+.card1 {
+  width: 40%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5%;
+  padding-top: -1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-left: 50%;
+}
+.card2 {
+  width: 40%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5%;
+  padding-top: -1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-left: 50%;
+}
+.card3 {
+  width: 18%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5%;
+  padding-top: -1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-left: 50%;
+}
+.card4 {
+  width: 18%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5%;
+  padding-top: -1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-right: 2%;
+}
+.thirdFourth {
+  margin-left: -100%;
+  margin-top: 4%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2%;
+}
+@media (max-width: 1024px) and (min-width: 414px) {
+  .menu {
+    margin-bottom: -10%;
+    margin-top: 40%;
+  }
+  .inSection p {
+    font-size: 15px;
+  }
+  footer {
+    margin-bottom: -20%;
+  }
+}
+@media (max-width: 415) and (min-width: 0px) {
+}

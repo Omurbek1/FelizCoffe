@@ -1,0 +1,53 @@
+body {
+  height: 250%;
+}
+#something {
+  position: fixed;
+  z-index: 6;
+  border: 0px;
+  border-radius: 55%;
+  background-image: url('./1.png');
+  margin-left: 88%;
+  margin-top: 30%;
+}
+
+#f {
+  display: flex;
+  position: fixed;
+  width: 100px;
+  /* height: 20900px; */
+  background-color: black;
+}
+
+#first {
+  display: flex;
+  position: fixed;
+  width: 7%;
+  background-color: chocolate;
+  margin-left: 90%;
+  margin-top: 8%;
+
+  text-align: center;
+  justify-content: center;
+}
+#second {
+  display: flex;
+  position: fixed;
+  width: 7%;
+  background-color: chocolate;
+  margin-left: 90%;
+  margin-top: 7%;
+  text-align: center;
+  justify-content: center;
+}
+#third {
+  display: flex;
+  position: fixed;
+
+  width: 7%;
+  background-color: chocolate;
+  margin-left: 90%;
+  margin-top: 8%;
+  text-align: center;
+  justify-content: center;
+}

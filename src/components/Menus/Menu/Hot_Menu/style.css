@@ -1,0 +1,113 @@
+html, body{
+    margin: 0;
+    padding: 0;
+  }
+  @font-face {
+    font-family: 'SignPainter';
+    src: url("./fonts/sign.otf");
+    src: local("☺️"), url("./fonts/sign.otf") format("woff"), url("./fonts/sign.otf" ) format("truetype"), url("./fonts/sign.otf") format("svg");
+    font-weight: normal;
+    font-style: italic;
+  }
+  .pName{
+    font-family: SignPainter;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 26.0038px;
+    line-height: 25px;
+    text-align: center;
+  }
+  .inSection p{
+  font-family: SignPainter;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 19.5028px;
+  line-height: 0.1px;
+  }
+  .header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+  }
+  .sectionName{
+    width: 45%;
+    height: 30%;
+    margin-top: 8%;
+    margin-left: 8%;
+  }
+  
+  .menu{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 7%;
+  }
+  .firstMenu{
+  background: url(./images/bg.png) center/ cover no-repeat;
+  width: 100%;
+  }
+  
+  .inSection{
+  display: flex;
+  justify-content: space-between;
+  }
+  /* .card{
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5%;
+  padding-top: -1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  
+  } */
+  
+  /* .cards{
+  margin-top: 15%;
+  } */
+  .card1{
+  width:  40%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5%;
+  padding-top: -1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-left: 50%;
+  }
+  .card2{
+  width:  40%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5%;
+  padding-top: -1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-left: 50%;
+  }
+  .card3{
+  width:  18%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5%;
+  padding-top: -1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-left: 50%;
+  }
+  .card4{
+  width:  18%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5%;
+  padding-top: -1%;
+  padding-bottom: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-right: 2%;
+  }
+  .thirdFourth{
+  margin-left: -100%;
+  margin-top: 4%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2%;
+  }
+  
